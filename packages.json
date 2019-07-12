@@ -2750,6 +2750,15 @@
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
     "version": "v2.0.0"
   },
+  "web-dom-parser": {
+    "dependencies": [
+      "effect",
+      "web-dom",
+      "prelude"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-web-dom-parser.git",
+    "version": "v6.1.0"
+  },
   "web-events": {
     "dependencies": [
       "datetime",
