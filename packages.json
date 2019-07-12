@@ -2752,6 +2752,7 @@
   },
   "web-dom-parser": {
     "dependencies": [
+      "partial",
       "effect",
       "web-dom",
       "prelude"
