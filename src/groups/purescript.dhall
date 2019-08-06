@@ -166,7 +166,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-foreign-object.git"
-        "v2.0.2"
+        "v2.0.3"
     , free =
         mkPackage
         [ "catenable-lists"
@@ -347,12 +347,12 @@ in  { arrays =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript/purescript-partial.git"
-        "v2.0.0"
+        "v2.0.1"
     , prelude =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript/purescript-prelude.git"
-        "v4.1.0"
+        "v4.1.1"
     , profunctor =
         mkPackage
         [ "contravariant"

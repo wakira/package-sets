@@ -9,7 +9,7 @@ in  { web-clipboard =
         mkPackage
         [ "web-events" ]
         "https://github.com/purescript-web/purescript-web-dom.git"
-        "v2.0.0"
+        "v3.0.0"
     , web-events =
         mkPackage
         [ "datetime", "enums", "nullable" ]
@@ -19,12 +19,12 @@ in  { web-clipboard =
         mkPackage
         [ "foreign", "media-types", "web-dom" ]
         "https://github.com/purescript-web/purescript-web-file.git"
-        "v2.1.0"
+        "v2.1.1"
     , web-html =
         mkPackage
         [ "js-date", "web-dom", "web-file", "web-storage" ]
         "https://github.com/purescript-web/purescript-web-html.git"
-        "v2.2.0"
+        "v2.2.1"
     , web-storage =
         mkPackage
         [ "nullable", "web-events" ]
@@ -49,7 +49,7 @@ in  { web-clipboard =
         , "web-file"
         ]
         "https://github.com/purescript-web/purescript-web-xhr.git"
-        "v3.0.0"
+        "v3.0.1"
     , canvas =
         mkPackage
         [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]

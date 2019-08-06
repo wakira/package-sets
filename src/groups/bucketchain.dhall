@@ -45,11 +45,16 @@ in  { bucketchain =
         [ "bucketchain", "js-date", "node-process" ]
         "https://github.com/Bucketchain/purescript-bucketchain-logger.git"
         "v0.3.0"
+    , bucketchain-secure =
+        mkPackage
+        [ "bucketchain" ]
+        "https://github.com/Bucketchain/purescript-bucketchain-secure.git"
+        "v0.1.0"
     , bucketchain-simple-api =
         mkPackage
-        [ "bucketchain", "media-types", "simple-json" ]
+        [ "bucketchain", "media-types", "simple-json", "freet" ]
         "https://github.com/Bucketchain/purescript-bucketchain-simple-api.git"
-        "v0.4.0"
+        "v0.5.0"
     , bucketchain-sslify =
         mkPackage
         [ "bucketchain" ]
@@ -59,5 +64,5 @@ in  { bucketchain =
         mkPackage
         [ "bucketchain", "node-fs-aff" ]
         "https://github.com/Bucketchain/purescript-bucketchain-static.git"
-        "v0.2.0"
+        "v0.3.0"
     }

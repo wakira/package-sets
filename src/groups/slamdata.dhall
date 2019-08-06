@@ -87,7 +87,7 @@ in  { aff =
         , "web-uievents"
         ]
         "https://github.com/slamdata/purescript-halogen.git"
-        "v5.0.0-rc.4"
+        "v5.0.0-rc.5"
     , halogen-vdom =
         mkPackage
         [ "bifunctors"
@@ -150,4 +150,34 @@ in  { aff =
         [ "avar", "prelude" ]
         "https://github.com/slamdata/purescript-aff-bus.git"
         "v4.0.0"
+    , uri =
+        mkPackage
+        [ "arrays"
+        , "generics-rep"
+        , "globals"
+        , "integers"
+        , "parsing"
+        , "profunctor-lenses"
+        , "quickcheck"
+        , "spec"
+        , "unfoldable"
+        , "these"
+        ]
+        "https://github.com/slamdata/purescript-uri.git"
+        "v7.0.0"
+    , pathy =
+        mkPackage
+        [ "console"
+        , "exceptions"
+        , "lists"
+        , "partial"
+        , "profunctor"
+        , "quickcheck"
+        , "strings"
+        , "transformers"
+        , "unsafe-coerce"
+        , "typelevel-prelude"
+        ]
+        "https://github.com/slamdata/purescript-pathy.git"
+        "v7.0.1"
     }

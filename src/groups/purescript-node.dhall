@@ -65,6 +65,22 @@ in  { node-buffer =
         ]
         "https://github.com/purescript-node/purescript-node-http.git"
         "v5.0.1"
+    , node-net =
+        mkPackage
+        [ "effect"
+        , "either"
+        , "exceptions"
+        , "foreign"
+        , "maybe"
+        , "node-buffer"
+        , "node-fs"
+        , "nullable"
+        , "options"
+        , "prelude"
+        , "transformers"
+        ]
+        "https://github.com/purescript-node/purescript-node-net.git"
+        "v1.0.0"
     , node-path =
         mkPackage
         [ "effect" ]
@@ -92,7 +108,7 @@ in  { node-buffer =
         , "prelude"
         ]
         "https://github.com/purescript-node/purescript-node-readline.git"
-        "v4.0.0"
+        "v4.0.1"
     , node-streams =
         mkPackage
         [ "effect", "either", "exceptions", "node-buffer", "prelude" ]

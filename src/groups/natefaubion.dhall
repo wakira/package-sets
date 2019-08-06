@@ -31,7 +31,7 @@ in  { variant =
         , "variant"
         ]
         "https://github.com/natefaubion/purescript-run.git"
-        "v3.0.0"
+        "v3.0.1"
     , heterogeneous =
         mkPackage
         [ "either", "functors", "prelude", "record", "tuples", "variant" ]
@@ -63,4 +63,48 @@ in  { variant =
         [ "prelude", "transformers", "variant" ]
         "https://github.com/natefaubion/purescript-checked-exceptions.git"
         "v3.0.0"
+    , spork =
+        mkPackage
+        [ "prelude"
+        , "console"
+        , "tailrec"
+        , "arrays"
+        , "refs"
+        , "foldable-traversable"
+        , "maybe"
+        , "aff"
+        , "halogen-vdom"
+        , "dom-indexed"
+        , "unsafe-reference"
+        , "web-dom"
+        , "web-html"
+        , "web-events"
+        , "web-uievents"
+        , "effect"
+        , "foreign"
+        , "ordered-collections"
+        ]
+        "https://github.com/natefaubion/purescript-spork"
+        "v1.0.0"
+    , psa-utils =
+        mkPackage
+        [ "ansi"
+        , "argonaut-codecs"
+        , "argonaut-core"
+        , "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "either"
+        , "foldable-traversable"
+        , "maybe"
+        , "node-path"
+        , "ordered-collections"
+        , "prelude"
+        , "strings"
+        , "tuples"
+        , "unsafe-coerce"
+        ]
+        "https://github.com/natefaubion/purescript-psa-utils.git"
+        "v6.0.0"
     }

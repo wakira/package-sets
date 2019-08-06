@@ -29,7 +29,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v7.0.0"
+        "v7.0.1"
     , node-he =
         mkPackage
         ([] : List Text)
@@ -52,7 +52,8 @@ in  { gomtang-basic =
         "v0.3.0"
     , simple-json =
         mkPackage
-        [ "exceptions"
+        [ "arrays"
+        , "exceptions"
         , "foreign"
         , "foreign-object"
         , "globals"
@@ -63,12 +64,12 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v6.0.0"
+        "v7.0.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
         "https://github.com/justinwoo/purescript-sunde.git"
-        "v1.0.0"
+        "v2.0.0"
     , toppokki =
         mkPackage
         [ "aff-promise"
@@ -160,10 +161,15 @@ in  { gomtang-basic =
         mkPackage
         [ "lists", "strings" ]
         "https://github.com/justinwoo/purescript-motsunabe.git"
-        "v1.0.0"
+        "v2.0.0"
     , simple-json-utils =
         mkPackage
         [ "motsunabe", "simple-json" ]
         "https://github.com/justinwoo/purescript-simple-json-utils.git"
         "v0.1.0"
+    , format-nix =
+        mkPackage
+        [ "generics-rep", "motsunabe", "prelude" ]
+        "https://github.com/justinwoo/format-nix.git"
+        "v0.3.0"
     }

@@ -9,7 +9,7 @@ in  { colors =
         mkPackage
         [ "globals", "math", "maybe" ]
         "https://github.com/sharkdp/purescript-numbers.git"
-        "v6.0.0"
+        "v7.0.0"
     , bigints =
         mkPackage
         [ "integers", "maybe", "strings" ]
@@ -19,12 +19,12 @@ in  { colors =
         mkPackage
         [ "maybe" ]
         "https://github.com/sharkdp/purescript-decimals.git"
-        "v4.0.0"
+        "v5.0.0"
     , pairs =
         mkPackage
         [ "console", "distributive", "foldable-traversable", "quickcheck" ]
         "https://github.com/sharkdp/purescript-pairs.git"
-        "v6.0.0"
+        "v7.0.0"
     , format =
         mkPackage
         [ "arrays"

@@ -14,17 +14,17 @@ in  { basic-auth =
         mkPackage
         [ "simple-json" ]
         "https://github.com/oreshinya/purescript-identy.git"
-        "v2.0.0"
+        "v2.0.2"
     , mysql =
         mkPackage
         [ "aff", "js-date", "simple-json" ]
         "https://github.com/oreshinya/purescript-mysql.git"
-        "v2.1.0"
+        "v3.0.1"
     , nodemailer =
         mkPackage
         [ "aff", "node-streams", "simple-json" ]
         "https://github.com/oreshinya/purescript-nodemailer.git"
-        "v2.0.0"
+        "v2.0.2"
     , simple-emitter =
         mkPackage
         [ "ordered-collections", "refs" ]
@@ -34,5 +34,5 @@ in  { basic-auth =
         mkPackage
         [ "crypto", "simple-json", "strings" ]
         "https://github.com/oreshinya/purescript-simple-jwt.git"
-        "v1.0.0"
+        "v1.0.2"
     }

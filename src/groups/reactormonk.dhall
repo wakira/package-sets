@@ -12,5 +12,19 @@ in  { rave =
         , "variant"
         ]
         "https://github.com/reactormonk/purescript-rave.git"
-        "v0.1.0"
+        "v0.1.1"
+    , simple-timestamp =
+        mkPackage
+        [ "console"
+        , "datetime"
+        , "effect"
+        , "foreign"
+        , "formatters"
+        , "prelude"
+        , "psci-support"
+        , "simple-json"
+        , "spec"
+        ]
+        "https://github.com/reactormonk/purescript-simple-timestamp.git"
+        "v1.1.0"
     }
